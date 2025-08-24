@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  @apply bg-main;
+}
+
 * {
   font-family: "JetBrainsMonoNerdFont", sans-serif;
   @apply duration-300;
