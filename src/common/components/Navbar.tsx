@@ -17,30 +17,21 @@ interface NavbarInterface {
   toggleSidebar: () => void;
 }
 
-// const navbarLinks = [
-//   { name: "Projects", link: "/projects" },
-// ];
-
 const socialLinks = [
   {
     name: "Github",
-    link: "https://github.com/hc-b666",
+    link: "https://github.com/kyojin22",
     icon: <TbBrandGithub className="icon" />,
   },
   {
     name: "Leetcode",
-    link: "https://leetcode.com/u/hc-b666",
+    link: "https://leetcode.com/u/kyojin22",
     icon: <TbBrandLeetcode className="icon" />,
   },
   {
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/muhammadbobur-abdukarimov-131362243",
+    link: "https://www.linkedin.com/in/muhammadbobur-abdukarimov",
     icon: <TbBrandLinkedin className="icon" />,
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/hc_b666",
-    icon: <TbBrandInstagram className="icon" />,
   },
 ];
 
@@ -50,22 +41,12 @@ export const Navbar: FC<NavbarInterface> = ({ toggleSidebar }) => {
   return (
     <nav className="container px-5 md:px-0 py-5 w-full flex items-center justify-between text-grey bg-white dark:bg-black">
       <NavLink to="/">
-        <h2 className="hover:text-black dark:hover:text-white text-lg md:text-xl">
-          &lt;hc-b666/&gt;
+        <h2 className="hover:text-black dark:hover:text-main text-lg md:text-xl">
+          &lt;kyojin/&gt;
         </h2>
       </NavLink>
 
       <div className="flex items-center gap-5">
-        {/* {navbarLinks.map((link, index) => ( */}
-        {/*   <NavLink */}
-        {/*     key={index} */}
-        {/*     to={link.link} */}
-        {/*     className="hidden md:inline-block hover:text-black dark:hover:text-white hover:underline duration-500" */}
-        {/*   > */}
-        {/*     {link.name} */}
-        {/*   </NavLink> */}
-        {/* ))} */}
-
         {socialLinks.map((link, index) => (
           <Link key={index} to={link.link} className="hidden md:inline-block">
             {link.icon}

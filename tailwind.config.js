@@ -16,6 +16,7 @@ export default {
       },
       colors: {
         grey: "#8d96a0",
+        main: "#43ffaf",
       },
     },
   },

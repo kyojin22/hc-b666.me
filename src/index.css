@@ -14,7 +14,7 @@
 }
 
 .icon {
-  @apply hover:text-black dark:hover:text-white text-4xl w-6 h-6;
+  @apply hover:text-black dark:hover:text-main text-4xl w-6 h-6;
 }
 
 .project-wrap {
