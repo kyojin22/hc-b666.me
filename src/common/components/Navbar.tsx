@@ -4,7 +4,6 @@ import {
   TbBrandGithub,
   TbBrandLeetcode,
   TbBrandLinkedin,
-  TbBrandInstagram,
   TbFileCv,
   TbSun,
   TbMoonStars,

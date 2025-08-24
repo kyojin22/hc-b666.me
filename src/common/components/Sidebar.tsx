@@ -4,10 +4,6 @@ import {
   TbBrandGithub,
   TbBrandLeetcode,
   TbBrandLinkedin,
-  TbBrandInstagram,
-  TbBrandTelegram,
-  TbBrandX,
-  TbBrandDiscord,
   TbFileCv,
 } from "react-icons/tb";
 import { RiCloseLine } from "react-icons/ri";
