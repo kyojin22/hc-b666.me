@@ -7,7 +7,7 @@ import { SiArchlinux } from "react-icons/si";
 
 export default function HomePage() {
   return (
-    <main className="container px-5 md:px-0 my-10 xl:my-20 w-full text-black dark:text-white bg-white dark:bg-black">
+    <main className="container px-5 md:px-0 my-10 xl:my-20 w-full text-black dark:text-white">
       <div className="mb-5 xl:mb-10 flex flex-col">
         <h1 className="text-2xl xl:text-3xl">Hello! I am Muhammadbobur</h1>
         <span className="text-grey text-xs xl:text-sm flex items-center flex-wrap gap-1">
